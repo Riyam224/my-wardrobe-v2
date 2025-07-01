@@ -205,7 +205,7 @@ class _HomeViewState extends State<HomeView> {
                           children: [
                             Container(
                               width: 180,
-                              height: 220,
+                              height: 250,
                               decoration: BoxDecoration(
                                 image: DecorationImage(
                                   image: getItemImage(item.imagePath),
@@ -300,7 +300,7 @@ class _HomeViewState extends State<HomeView> {
                             crossAxisCount: 2,
                             crossAxisSpacing: 10,
                             mainAxisSpacing: 10,
-                            childAspectRatio: 0.5,
+                            childAspectRatio: 0.4,
                           ),
                     ),
             ],
